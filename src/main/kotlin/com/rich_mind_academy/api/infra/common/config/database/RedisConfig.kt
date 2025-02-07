@@ -11,7 +11,7 @@ import java.time.Duration
 
 @Configuration
 @EnableCaching
-class RedisCacheConfig {
+class RedisConfig {
 
     @Bean
     fun stringRedisTemplate(redisConnectionFactory: RedisConnectionFactory?): StringRedisTemplate {
